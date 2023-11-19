@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Presets/stylerap.css">
+    <script src="https://kit.fontawesome.com/0e9ad8c0ce.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="../img/Spotify_Logo_CMYK_Green.png" alt="Bootstrap" width="100" height="30">
+        </a>
+        <div class="name">
+          <div class="container2">
+            <a class="navbar-brand"></a>
+            <h3></h3>
+          </div>
+        </div>
+      </div>
+    </nav>
+  <h1>Lista de reproduccion Rap</h1>
+
+  <div class="music-player-container">
+    <div class="title-music-container">
+      <img src="/img/todas mueren.jpeg" width="320px" height="300px">
+      <h4 class="song-title">Todas mueren por mi</h4>
+      <span class="song-author">Cartel de santa</span>
+      </div>
+      <div class="controls-music-container">
+        <div class="progress-song-container">
+          <div class="progress-bar">
+            <span class="progress"></span>
+          </div>
+        </div>
+        <div class="time-container">
+          <span class="time-left" id="CurrentSongTime"></span>
+          <span class="time-left" id="SongLength"></span>
+        </div>
+      </div>
+      <audio controls preload="metadata" src="/music/Cartel De Santa - Todas Mueren Por Mi.mp3"></audio>
+      <div class="main-song-controls">
+        <img src="/icons/atras.svg" alt="" class="icon" id="Back10">
+        <img src="/json/play.svg" alt="" class="icon" id="PlayPause">
+        <img src="/icons/siguiente.svg" alt="" class="icon" id="Plus10">
+
+
+        
+
+      </div>
+      <br>
+        <button type="button" class="btn btn-light"><i class="fa-regular fa-floppy-disk fa-3x"></i><a download="Todas mueren por mi" href="/music/Cartel De Santa - Todas Mueren Por Mi.mp3">#</button>
+<script src="/json/coderap.js"></script>      
+  
+
+  
+
+</body>
+</html>
